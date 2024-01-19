@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container__inner {
+    max-width: 1130px;
+    margin: auto;
+    height: auto;
+}
+.title_main{
+    color: #000;
+    font-family: Lora;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+}
+.card__item{
+    margin-bottom: 120px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.card__item__inner{
+    position: relative;
+    width: 330px;
+    -webkit-box-shadow: 4px 5px 49px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 5px 49px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 5px 49px 0px rgba(34, 60, 80, 0.2);
+}
+.subtitle{
+    width: 300px;
+    right: 0;
+    bottom: -75px;
+    position: absolute;
+    z-index: 3;
+    background: white;
+    padding: 20px 15px;
+    overflow: hidden;
+}
+.cards{
+
+}
+.subtitle .text{
+    text-align: left;
+    width: 200px;
+}
+.subtitle .text h1{
+    color: #000;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.subtitle .text p{
+    color: rgba(0, 0, 0);
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
+.subtitle .item{
+    text-align: right;
+}
+.photo{
+    width: 330px;
+}
+.my__btn{
+    border: 1.5px solid #FF427F;
+    background: none;
+    padding: 20px 48px;
+    color: #FF427F;
+}
+span{
+    line-height:3;
+    display:block;
+    background:rgba(168, 0, 221, 0.5);
+}
+@media (max-width: 868px) {
+    .subtitle{
+        left: 0;
+    }
+    .row{
+
+    }
+}
+@media (max-width: 1180px) {
+    .subtitle{
+        left: 0;
+    }
+    .row{
+
+    }
+}
